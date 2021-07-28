@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+# Tutorials for using any technologies
+ Here I'm accumulating all my experience in technologies and write step by step tutorials
 
-You can use the [editor on GitHub](https://github.com/gryniv/gryniv.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Table of Contents
+<!-- MarkdownTOC -->
+- [Hybris]()
+    - [Odata](https://github.com/gryniv/Tutorials/blob/master/Hybris/Odata/README.md)
+- [Contacts](#contacts)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Contacts
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gryniv/gryniv.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<div style="font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:13px;" target="_blank">
+<div style="font-size:18px;font-color:#003290">Hryniv Ihor | Java/Hybris Developer</div>
+<div style="margin:0 0 0 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex;font-color:#6fa8dc">
+            <a href="mailto:gryniv.ihor@gmail.com" title="Email" target="_blank" >
+                gryniv.ihor@gmail.com</a><br>
+            <a href="tel:+380630500042" title="Phone number" target="_blank">
+                +38 (063) 050 0042</a><br>
+            <a href="https://www.linkedin.com/in/gryniv-ihor/" title="LinkedIn" style="margin-right:5px" target="_blank">
+               <img src="https://www.getmailspring.com/signature-assets/linkedin.gif" alt="LinkedIn" style="vertical-align:middle;border:0 none" width="13" height="13"></a>
+            <a href="https://www.facebook.com/Gryniv.Ihor" title="facebook" style="margin-right:5px" target="_blank">
+                <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="facebook" style="vertical-align:middle;border:0 none" width="13" height="13"></a>
+            <a href="https://t.me/Doctors42" title="telegram" style="margin-right:5px" target="_blank">
+                <img src="https://web.telegram.org/img/logo_share.png" alt="telegram" style="vertical-align:middle;border:0 none" width="13" height="13"></a>
+            <a href="https://join.skype.com/invite/p2VDhxUs17SQ" title="Skype" style="margin-right:5px" target="_blank" >
+                <img src="https://join.secure.skypeassets.com/static/14.207/images/icons/favicon.ico" alt="Skype" style="vertical-align:middle;border:0 none" width="13" height="13"></a>
+    </div>
+</div>
