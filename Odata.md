@@ -235,15 +235,15 @@ INSERT_UPDATE Employee; UID[unique = true]; groups(uid)[mode = append]
 
 Before open this link`s, you need to import [impex](#impex-example)
 
-```http request
+```http
 GET https://{{ENV}}:9002/odata2webservices/GetStockLevel/StockLevels
 ```
 
-```http request
+```http
 DELETE https://{{ENV}}:9002/odata2webservices/GetStockLevel/StockLevels('{{product}}')
 ```
 
-```http request
+```http
 POST https://{{ENV}}:9002/odata2webservices/GetStockLevel/StockLevels('{{product}}')
 ```
 
