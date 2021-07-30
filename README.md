@@ -4,8 +4,7 @@
 ## Table of Contents
 <!-- MarkdownTOC -->
 - [Hybris]()
-    - [Odata](https://github.com/gryniv/Tutorials/blob/master/Hybris/Odata/README.md)
-- [Contacts](#contacts)
+    - [Odata](Odata.md)
 
 ## Contacts
 
