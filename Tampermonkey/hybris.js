@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         HybrisCssFix
-// @namespace    http://tampermonkey.net/
+// @namespace    https://gryniv.github.io/
 // @version      0.1.1
-// @description  try to take over the world!
-// @author       You
+// @description  Fix some css styles on Hybris environments for better user experience
+// @author       Ihor Hryniv @doctors
 // @match        https://www.tampermonkey.net/index.php?version=4.13&ext=dhdg&updated=true&show=dhdg
-// @icon         https://www.google.com/s2/favicons?domain=tampermonkey.net
+// @icon         https://help.sap.com/viewer/_build_2.3.0.20210728/images/favicon.ico
 // @grant        none
 // @include      https://localhost*
 // @include      https://bo.fqa.amway.ru/*
@@ -63,11 +63,13 @@ function replaceProd() {
 
 function backofficeUpdate(url) {
     if (url.includes("/backoffice")) {
-        addGlobalStyle('.z-window{ width: 1500px !important; }');
         if (isProduction(url)) {
-            addGlobalStyle('div.yw-systemBarContainer.z-div{ background-color: #cc0000 !important; }');
+            const addVisualizeToProd = 'div.yw-systemBarContainer.z-div{ background-color: #cc0000 !important; }';
+            addGlobalStyle(addVisualizeToProd);
             replaceProd();
         }
+        const windowFix ='.z-window{ width: 1500px !important; }';
+        addGlobalStyle(windowFix);
     }
 
 }
