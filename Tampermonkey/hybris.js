@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HybrisCssFix
 // @namespace    https://gryniv.github.io/
-// @version      0.1.1
+// @version      0.1.2
 // @description  Fix some css styles on Hybris environments for better user experience
 // @author       Ihor Hryniv @doctors
 // @match        https://www.tampermonkey.net/index.php?version=4.13&ext=dhdg&updated=true&show=dhdg
@@ -71,12 +71,10 @@ function backofficeUpdate(url) {
         const windowFix ='.z-window{ width: 1500px !important; }';
         addGlobalStyle(windowFix);
     }
-
 }
 //test
 function hacUpdate(url) {
     if (url.includes("/hac")) {
         addGlobalStyle('div.prepend-top.span-17.colborder{ width: 669px !important; }');
     }
-
 }
