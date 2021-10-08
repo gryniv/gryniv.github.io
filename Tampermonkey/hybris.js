@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HybrisCssFix
 // @namespace    https://gryniv.github.io/
-// @version      0.1.3
+// @version      0.1.4
 // @description  Fix some css styles on Hybris environments for better user experience
 // @author       Ihor Hryniv @doctors
 // @icon        https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqTBoTlCF0AQRFBStwe8tW0DREaKpvn_oDnTGj6eJvZ0QKMcp_tpLb4SB_rvAKZ2H-O_E&usqp=CAU
@@ -90,7 +90,7 @@ function backofficeUpdate(url) {
 function hacUpdate(url) {
     if (url.includes("/hac")) {
         updateHacStyles()
-        changeColor()
+        // changeColor()
         //addHacFlexibleSearchSamples()
     }
 }
