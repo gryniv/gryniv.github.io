@@ -46,37 +46,7 @@ const prodEnv = ['bo.amway.ru', 'bo.kz.amway.com'];
     const url = document.URL;
     backofficeUpdate(url);
     hacUpdate(url);
-    // addMenu();
-
-
 })();
-
-function addMenu() {
-    addGlobalStyle('.ullistClass {list-style-type: none;margin: 0;  padding: 0;  overflow: hidden;  background-color: #333;}' +
-        '.listClass {  float: left;}' +
-        'li a, .dropbtn {  display: inline-block;  color: white;  text-align: center;  padding: 14px 16px;  text-decoration: none;}' +
-
-        'li.dropdown {  display: inline-block;}' +
-        '.dropdown-content {  display: none;  position: absolute;  background-color: #f9f9f9;  min-width: 160px;  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  z-index: 1;}' +
-        '.dropdown-content a {  color: black;  padding: 12px 16px;  text-decoration: none;  display: block;  text-align: left;}' +
-        '.dropdown-content a:hover {background-color: #f1f1f1;}' +
-        '.dropdown:hover .dropdown-content {  display: block;}');
-    const newHTML = document.createElement('div');
-    newHTML.innerHTML = '<ul class="ullistClass">' +
-        '  <li class="listClass"><a href="#home">Home</a></li>' +
-        '  <li class="listClass"><a href="#news">News</a></li>' +
-        '  <li class="dropdown listClass">' +
-        '    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>' +
-        '    <div class="dropdown-content">' +
-        '      <a href="#">Link 1</a>' +
-        '      <a href="#">Link 2</a>' +
-        '      <a href="#">Link 3</a>' +
-        '    </div>' +
-        '  </li>' +
-        '</ul>';
-    document.body.firstElementChild.before(newHTML);
-}
-
 
 function backofficeUpdate(url) {
     if (url.includes("/backoffice")) {
@@ -91,23 +61,7 @@ function backofficeUpdate(url) {
 function hacUpdate(url) {
     if (url.includes("/hac")) {
         updateHacStyles()
-        // changeColor()
-        //addHacFlexibleSearchSamples()
     }
-}
-
-function addHacFlexibleSearchSamples() {
-    const a = document.getElementById("recent-reviews")
-    const newHTML = document.createElement('ul');
-    newHTML.className = "box"
-    newHTML.innerHTML = '<ul class="ullistClass">' +
-        `<li><input type="text" value=""SELECT {pk}, {code},{name[de]} FROM {Product}"" id="myInput">
-
-<!-- The button used to copy the text -->
-<button onclick="copyToClipboard()">Copy text</button>
-
-	</a></li>`
-    a.getElementsByClassName("box")[0].firstElementChild.before(newHTML)
 }
 
 function updateHacStyles() {
@@ -121,17 +75,6 @@ function updateHacStyles() {
     addGlobalStyle('div.span-24.last{ width: 100% !important; }');
     addGlobalStyle('div.span-6.last{ width: 13% !important; }');
 
-}
-
-function changeColor() {
-    let elementToBeSearched = document.querySelector("tbody");
-
-// Begin traversing the child elements as an array
-    Array.prototype.slice.call(elementToBeSearched.children).forEach(function (node) {
-        // Replace keywords with span elements that are tied to the correct CSS class.
-        node.innerHTML = node.innerHTML.replace(/SUCCESS/g, "<span style='text-color=green'>SUCCESS</span>");
-        node.innerHTML = node.innerHTML.replace(/Offer/g, "<span class='offer'>Offer</span>");
-    });
 }
 
 function addGlobalStyle(css) {
@@ -153,20 +96,4 @@ function isProduction(url) {
         }
     }
     return false;
-}
-
-
-function copyToClipboard() {
-    /* Get the text field */
-    var copyText = document.getElementById("myInput");
-
-    /* Select the text field */
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); /* For mobile devices */
-
-    /* Copy the text inside the text field */
-    navigator.clipboard.writeText(copyText.value);
-
-    /* Alert the copied text */
-    alert("Copied the text: " + copyText.value);
 }
