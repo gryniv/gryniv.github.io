@@ -4,7 +4,7 @@
 ## Table of Contents
 <!-- MarkdownTOC -->
 - [Hybris]()
-  - [Odata](Hybris/Odata/Odata.md)
+  - [Odata](Odata.md)
   - [Groovy Scripts](Hybris/groovy/README.md)
   - [Flexible Search](Hybris/FlexibleSearch/README.md)
 - [Linux]()
