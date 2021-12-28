@@ -1,0 +1,38 @@
+
+div.container {
+    width: 80% !important;
+}
+
+div.ui-resizable {
+    min-height: 250px;
+    width: unset !important;
+    height: unset !important
+}
+
+div.CodeMirror-sizer {
+    min-height: 250px !important;
+}
+
+div.span-6.last {
+    width: 13% !important;
+}
+
+div.prepend-top.span-17.colborder {
+    width: 82% !important;
+}
+
+nav.subnavigation.span-24.last {
+    width: 100% !important;
+}
+
+div.prepend-top.span-24.last {
+    width: 100% !important;
+}
+
+header.span-24.last {
+    width: 100% !important;
+}
+
+div.span-24.last {
+    width: 100% !important;
+}
