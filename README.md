@@ -4,11 +4,13 @@
 ## Table of Contents
 <!-- MarkdownTOC -->
 - [Hybris]()
-  - [Odata](Odata.md)
+  - [Odata](Hybris/Odata/Odata.md)
+  - [Flexible Search](Hybris/FlexibleSearch/FlexibleSearch.md)
+  - [Config structure](Hybris/Config/Config.md)
   - [Groovy Scripts](Hybris/groovy/README.md)
-  - [Flexible Search](Hybris/FlexibleSearch/README.md)
 - [Linux]()
   - [Headphones fix](Linux/Headphone.md)
+- [Postman](Postman/Postman.md)
 
 ## Contacts
 

@@ -1,46 +1,27 @@
 // ==UserScript==
 // @name         HybrisCssFix
 // @namespace    https://gryniv.github.io/
-// @version      0.1.4
+// @version      0.1.5
 // @description  Fix some css styles on Hybris environments for better user experience
 // @author       Ihor Hryniv @doctors
-// @icon        https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqTBoTlCF0AQRFBStwe8tW0DREaKpvn_oDnTGj6eJvZ0QKMcp_tpLb4SB_rvAKZ2H-O_E&usqp=CAU
+// @icon         https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqTBoTlCF0AQRFBStwe8tW0DREaKpvn_oDnTGj6eJvZ0QKMcp_tpLb4SB_rvAKZ2H-O_E&usqp=CAU
 // @updateURL    https://gryniv.github.io/Tampermonkey/hybris.js
 //               local
 // @include      https://localhost*
-// @include      https://amway.ru.local*
+// @include      https://somesite.ua.local*
 // @match        https://localhost*
-//         FQA test
-// @include      https://admin-fqa5.hybris.eia.amway.net/*
-// @include      https://admin-fqa6.hybris.eia.amway.net/*
-// @include      https://admin-fqa7.hybris.eia.amway.net/*
-// @include      https://admin-fqa8.hybris.eia.amway.net/*
-// @include      https://admin-fqa9.hybris.eia.amway.net/*
-// @include      https://admin-fqa10.hybris.eia.amway.net/*
-// @match        https://admin-fqa5.hybris.eia.amway.net/*
-// @match        https://admin-fqa6.hybris.eia.amway.net/*
-// @match        https://admin-fqa7.hybris.eia.amway.net/*
-// @match        https://admin-fqa8.hybris.eia.amway.net/*
-// @match        https://admin-fqa9.hybris.eia.amway.net/*
-// @match        https://admin-fqa10.hybris.eia.amway.net/*
 //         UAT
-// @include      https://bo.uat.amway.ru/*
-// @include      https://bo.uat.kz.amway.com/*
-// @match        https://bo.uat.amway.ru/*
-// @match        https://bo.uat.kz.amway.com/*
+// @include      https://bo.uat.somesite.ua/*
+// @match        https://bo.uat.somesite.ua/*
 //         FQA
-// @include      https://bo.fqa.amway.ru/*
-// @include      https://bo.fqa.kz.amway.com/*
-// @match        https://bo.fqa.amway.ru/*
-// @match        https://bo.fqa.kz.amway.com/*
+// @include      https://bo.fqa.somesite.ua/*
+// @match        https://bo.fqa.somesite.ua/*
 //         PROD
-// @include      https://bo.amway.ru/*
-// @include      https://bo.kz.amway.com/*
-// @match        https://bo.amway.ru/*
-// @match        https://bo.kz.amway.com/*
+// @include      https://bo.somesite.ua/*
+// @match        https://bo.somesite.ua/*
 // ==/UserScript==
 
-const prodEnv = ['bo.amway.ru', 'bo.kz.amway.com'];
+const prodEnv = ['bo.somesite.ua'];
 
 (function () {
     const url = document.URL;
