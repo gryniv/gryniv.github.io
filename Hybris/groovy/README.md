@@ -31,10 +31,10 @@ return result
 ```
 change hac config on all nodes
 ```groovy
-import com.hybris.util.cluster.property.LynxPropertyChangeEvent
+import com.hybris.util.cluster.property.PropertyChangeEvent
 def key="feature.marketplaces.enabled"
 def value="true"
-eventService.publishEvent(new LynxPropertyChangeEvent(key,value))
+eventService.publishEvent(new PropertyChangeEvent(key,value))
 println key + ' = ' + value
 return "property changed! \n" + key + ' = ' + value
 ```
