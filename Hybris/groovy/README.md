@@ -31,7 +31,7 @@ return result
 ```
 change hac config on all nodes
 ```groovy
-import com.amway.lynxcore.util.cluster.property.LynxPropertyChangeEvent
+import com.hybris.util.cluster.property.LynxPropertyChangeEvent
 def key="feature.marketplaces.enabled"
 def value="true"
 eventService.publishEvent(new LynxPropertyChangeEvent(key,value))
