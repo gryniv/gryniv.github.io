@@ -52,10 +52,7 @@
                     }
                 ]
             },
-            {
-                "label": "Tools",
-                "url": "#",
-                "submenu": [
+
                     {
                         "label": "TeamCity - CI/CD",
                         "url": "https://sapcommus.techwave.hu/"
@@ -64,8 +61,7 @@
                         "label": "Space - git",
                         "url": "https://techwave.jetbrains.space/"
                     }
-                ]
-            }
+       
         
     
 ]
