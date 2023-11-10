@@ -1,0 +1,25 @@
+[
+    {
+        "label": "Home",
+        "url": "https://www.example.com"
+    },
+    {
+        "label": "Products",
+        "url": "https://www.example.com/products"
+    },
+    {
+        "label": "Services",
+        "url": "https://www.example.com/services"
+    },
+    {
+        "separator": true
+    },
+    {
+        "label": "About Us",
+        "url": "https://www.example.com/about"
+    },
+    {
+        "label": "Contact Us",
+        "url": "https://www.example.com/contact"
+    }
+]
