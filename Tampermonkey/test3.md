@@ -1,0 +1,10 @@
+- OpenAI
+  - Home: [OpenAI Home](https://www.openai.com/)
+  - Research: [OpenAI Research](https://www.openai.com/research/)
+- GitHub
+  - Explore: [GitHub Explore](https://github.com/explore)
+  - Marketplace: [GitHub Marketplace](https://github.com/marketplace)
+- Learning Resources
+  - Khan Academy: [Khan Academy](https://www.khanacademy.org/)
+  - Coursera: [Coursera](https://www.coursera.org/)
+  - edX: [edX](https://www.edx.org/)
