@@ -22,7 +22,7 @@
                     {
                         "label": "localhost - hac",
                         "url": "https://localhost:9002/hac"
-                    },
+                    }
               
                 ]
             },
@@ -33,7 +33,7 @@
                     {
                         "label": "Netdirect - site",
                         "url": "https://netdirect.techwave.hu/"
-                    },
+                    }
                   
                 ]
             },
@@ -44,7 +44,7 @@
                     {
                         "label": "Farm2fork - site",
                         "url": "https://farm2fork.techwave.hu/"
-                    },
+                    }
                   
                 ]
             },
@@ -55,7 +55,7 @@
                     {
                         "label": "Pharmasolutions - site",
                         "url": "https://pharmasolutions.techwave.hu/"
-                    },
+                    }
                
                 ]
             },
