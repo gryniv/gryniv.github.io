@@ -1,7 +1,7 @@
 # My Favorite Websites
 
 - [OpenAI](https://www.openai.com/)
-- [GitHub](https://github.com/)
+  - [GitHub](https://github.com/)
 - [Stack Overflow](https://stackoverflow.com/)
 - [Reddit](https://www.reddit.com/)
 - [Hacker News](https://news.ycombinator.com/)
