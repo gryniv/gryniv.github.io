@@ -1,0 +1,12 @@
+[
+  {
+    "servername": "Server 1",
+    "builds": [
+      {
+        "buildname": "Build 1",
+        "imgUrl": "https://sapcommus.techwave.hu/app/rest/builds/buildType:id:Farm2Fork_Build/statusIcon.svg"
+      }
+    ]
+  }
+  
+]
