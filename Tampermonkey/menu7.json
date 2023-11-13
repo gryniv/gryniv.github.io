@@ -1,0 +1,50 @@
+[
+    {
+        "label": "Home",
+        "url": "https://www.example.com"
+    },
+    {
+        "label": "Products",
+        "submenu": [
+            {
+                "label": "Product 1",
+                "url": "https://www.example.com/products/product1"
+            },
+            {
+                "label": "Product 2",
+                "url": "https://www.example.com/products/product2"
+            }
+        ]
+    },
+    {
+        "label": "Services",
+        "submenu": [
+            {
+                "label": "Service 1",
+                "url": "https://www.example.com/services/service1"
+            },
+            {
+                "label": "Service 2",
+                "url": "https://www.example.com/services/service2",
+                "submenu": [
+                    {
+                        "label": "Sub-Service 1",
+                        "url": "https://www.example.com/services/service2/subservice1"
+                    },
+                    {
+                        "label": "Sub-Service 2",
+                        "url": "https://www.example.com/services/service2/subservice2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "About Us",
+        "url": "https://www.example.com/about"
+    },
+    {
+        "label": "Contact Us",
+        "url": "https://www.example.com/contact"
+    }
+]
