@@ -1,0 +1,60 @@
+[
+  {
+    "type": "link",
+    "label": "Home",
+    "url": "https://www.example.com"
+  },
+  {
+    "type": "folder",
+    "label": "Products",
+    "submenu": [
+      {
+        "type": "link",
+        "label": "Product 1",
+        "url": "https://www.example.com/products/product1"
+      },
+      {
+        "type": "link",
+        "label": "Product 2",
+        "url": "https://www.example.com/products/product2"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "label": "Services",
+    "submenu": [
+      {
+        "type": "link",
+        "label": "Service 1",
+        "url": "https://www.example.com/services/service1"
+      },
+      {
+        "type": "folder",
+        "label": "Service 2",
+        "submenu": [
+          {
+            "type": "link",
+            "label": "Sub-Service 1",
+            "url": "https://www.example.com/services/service2/subservice1"
+          },
+          {
+            "type": "link",
+            "label": "Sub-Service 2",
+            "url": "https://www.example.com/services/service2/subservice2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "link",
+    "label": "About Us",
+    "url": "https://www.example.com/about"
+  },
+  {
+    "type": "link",
+    "label": "Contact Us",
+    "url": "https://www.example.com/contact"
+  }
+]
