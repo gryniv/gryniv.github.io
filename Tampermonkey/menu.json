@@ -42,7 +42,7 @@
         "url": "https://netdirect-backoffice.techwave.hu/hac"
       },
       {
-        "label": "hac",
+        "label": "backoffice",
         "url": "https://netdirect-backoffice.techwave.hu/backoffice"
       }
     ]
@@ -60,7 +60,7 @@
         "url": "https://farm2fork-backoffice.techwave.hu/hac"
       },
       {
-        "label": "hac",
+        "label": "backoffice",
         "url": "https://farm2fork-backoffice.techwave.hu/backoffice"
       }
     ]
@@ -78,7 +78,7 @@
         "url": "https://telco-backoffice.techwave.hu/hac"
       },
       {
-        "label": "hac",
+        "label": "backoffice",
         "url": "https://telco-backoffice.techwave.hu/backoffice"
       }
     ]
@@ -96,7 +96,7 @@
         "url": "https://thehomestore.techwave.hu/hac"
       },
       {
-        "label": "hac",
+        "label": "backoffice",
         "url": "https://thehomestore.techwave.hu/backoffice"
       }
     ]
