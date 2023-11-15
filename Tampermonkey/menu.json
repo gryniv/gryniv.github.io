@@ -24,7 +24,7 @@
         "url": "https://localhost:9002/hac"
       },
       {
-        "label": "backoffice",
+        "label": "BackOffice",
         "url": "https://localhost:9002/backoffice"
       }
     ]
@@ -34,7 +34,7 @@
     "url": "#",
     "submenu": [
       {
-        "label": "website",
+        "label": "Website",
         "url": "https://netdirect.techwave.hu/"
       },
       {
@@ -42,7 +42,7 @@
         "url": "https://netdirect-backoffice.techwave.hu/hac"
       },
       {
-        "label": "backoffice",
+        "label": "BackOffice",
         "url": "https://netdirect-backoffice.techwave.hu/backoffice"
       }
     ]
@@ -52,7 +52,7 @@
     "url": "#",
     "submenu": [
       {
-        "label": "website",
+        "label": "Website",
         "url": "https://farm2fork.techwave.hu/"
       },
       {
@@ -60,7 +60,7 @@
         "url": "https://farm2fork-backoffice.techwave.hu/hac"
       },
       {
-        "label": "backoffice",
+        "label": "BackOffice",
         "url": "https://farm2fork-backoffice.techwave.hu/backoffice"
       }
     ]
@@ -70,7 +70,7 @@
     "url": "#",
     "submenu": [
       {
-        "label": "website",
+        "label": "Website",
         "url": "https://telco.techwave.hu/"
       },
       {
@@ -78,7 +78,7 @@
         "url": "https://telco-backoffice.techwave.hu/hac"
       },
       {
-        "label": "backoffice",
+        "label": "BackOffice",
         "url": "https://telco-backoffice.techwave.hu/backoffice"
       }
     ]
@@ -88,7 +88,7 @@
     "url": "#",
     "submenu": [
       {
-        "label": "website",
+        "label": "Website",
         "url": "https://thehomestore.techwave.hu/"
       },
       {
@@ -96,7 +96,7 @@
         "url": "https://thehomestore.techwave.hu/hac"
       },
       {
-        "label": "backoffice",
+        "label": "BackOffice",
         "url": "https://thehomestore.techwave.hu/backoffice"
       }
     ]
